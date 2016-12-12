@@ -56,11 +56,11 @@ Plugin configuration is done through =configure=, in the "Plugins" section. You 
 |  Author: | Foswiki:Main.IanBygrave |
 |  Copyright: | &copy; 2009, Ian Bygrave |
 |  License: | GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]]) |
-|  Version: | %$VERSION%) |
+|  Version: | %$VERSION% |
 |  Change History: | |
 |  05 Feb 2011 | Tasks.Item10319, Tasks.Item10500: always links back to WebHome - Main.IanBygrave |
 |  04 Jan 2010 | Tasks.Item8378: fix CSS link - Main.AntonioTerceiro |
-|  Home: | http://foswiki.org/Extensions/%TOPIC%Dev |
+|  Home: | http://foswiki.org/Extensions/%TOPIC% |
 |  Support: | http://foswiki.org/Support/%TOPIC% |
 
 %META:FORM{name="PackageForm"}%
