@@ -23,10 +23,9 @@ require Foswiki::Plugins;
 
 use Foswiki::Plugins::FootNotePlugin::Note;
 
-our $VERSION          = '$Rev:$';
-our $RELEASE          = '$Date:$';
+our $VERSION          = '1.2';
+our $RELEASE          = '12 Dec 2016';
 our $SHORTDESCRIPTION = 'Place footnotes at the end of a page.';
-
 our $NO_PREFS_IN_TOPIC = 1;
 
 # =========================
@@ -97,7 +96,7 @@ sub printNotes {
     return "" if ( $result eq "" );
 
     return Foswiki::Func::renderText( "\n\n$header\n\n$result\n\n$footer\n\n",
-        $web );
+        $web ); # SMELL: shouldn't this include $topic, or rather $page?
 }
 
 # =========================
